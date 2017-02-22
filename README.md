@@ -33,6 +33,6 @@ All color combinations pass the [WebAIM Color Contrast Checker](http://webaim.or
 ###Normal mode
 Start value: pure white, End value: pure gray (middle between black and white), with 2 equal distance steps in between. Overlaid by #c27c00.
 
-##Full black night mode
+###Full black night mode
 Start value: pure white, End value: pure black, with 2 equal distance steps in between. Overlaid by #c27c00. Last 2 background colors get white text. 
 
