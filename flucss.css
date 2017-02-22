@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Flucss styles by veli.ee
+   CSS styles based on sunset and sunrise for visitor location. Like F.lux, for the web. 
+   http://veli.ee/flucss
+   ========================================================================== */
+
+.sunriseEnd,
+.solarNoon,
+.goldenHour,
+.goldenHourEnd {
+  background: white;
+  color: black;
+}
+.dawn,
+.sunrise,
+.sunset,
+.sunsetStart {
+  background: #ead4a7;
+}
+.dusk,
+.nauticalDusk,
+.nightEnd,
+.nauticalDawn {
+  background: #d6a84e;
+}
+.night,
+.nadir {
+  background: #c27c00;
+}
+.fullblack .sunriseEnd,
+.fullblack .solarNoon,
+.fullblack .goldenHour,
+.fullblack .goldenHourEnd {
+  background: white;
+}
+.fullblack .dawn,
+.fullblack .sunrise,
+.fullblack .sunset,
+.fullblack .sunsetStart {
+  background: #d6a84e;
+}
+.fullblack .dusk,
+.fullblack .nauticalDusk,
+.fullblack .nightEnd,
+.fullblack .nauticalDawn {
+  background: #815300;
+  color: white;
+}
+.fullblack .night,
+.fullblack .nadir {
+  background: black;
+  color: white;
+}
