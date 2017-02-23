@@ -1,6 +1,8 @@
 # [FluCSS by Veli](http://veli.ee/flucss/)
 CSS styles based on sunset and sunrise for visitor location. Like [F.lux](http://justgetflux.com/), for the web.
 
+_Demo does not work on Chrome, because geoLocation must be served over https. If your project has https, works fine_
+
 ## [Preview demo](http://veli.ee/flucss/)
 
 [![Preview](splash.png)](http://veli.ee/flucss/)
