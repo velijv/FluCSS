@@ -17,6 +17,7 @@ Options: Dimmed at night, Full black at night
 2. Find sun states for location via SunCalc js
 3. Calculate closest sun state for current time
 4. Add CSS class on any element based on closest sun state
+5. Use localStorage to prevent page flickering while navigating or reloading
 
 
 ## How to use it:
