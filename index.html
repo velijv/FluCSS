@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head itemscope itemtype="http://schema.org/WebPage">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FluCSS demo by Veli-Johan Veromann &mdash; designer, front-end developer</title>
+
+    <!-- must include jQuery -->
+    <link rel="stylesheet" href="flucss.css">
+</head>
+<body>
+
+    <h1><a href="http://veli.ee/flucss/">Flucss</a> demo</h1>
+    <p>inspect each element, they will get a classname based on sun state.</p>
+    <p>if sun has started to set, or has completely set, you will see a different background color. </p>
+    <p>if you see white background, it's because the sun hasnt set or you havent allowed location access</p>
+
+
+    <!-- must include jQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- I am embeding suncalc from my personal website, you should download the latest version from https://github.com/mourner/suncalc -->
+        <script src="http://veli.ee/flucss/js/plugins.js"></script>
+    <!-- I am embeding suncalc from my personal website, you should download the latest version from https://github.com/mourner/suncalc -->
+
+    <!-- include FluCSS js -->
+    <script src="flucss.min.js"></script>
+
+    <!-- call the function, with options -->
+    <script>
+    $(function(){
+        // add class to whole body - recommended for background
+        $("html").flucss();
+
+        // you can also add it to smaller elements, multple and chained
+        $("p, span").flucss().addClass("cool")
+
+        // if you want night to go full black, add this option
+        $("h1").flucss({
+            black: true
+        })
+
+        // testing
+        $("#text").text( $("html").attr("class") )
+    })
+    </script>
+
+
+</body>
+</html>
