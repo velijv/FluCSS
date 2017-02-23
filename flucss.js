@@ -6,6 +6,15 @@
 
 $(function(){
 
+// check localstorage support, get state from localstorage to avoid flickering when navigating or reloading
+if (typeof(Storage) !== "undefined") {
+	var storeddaytimename = localStorage.getItem("daytimename")
+	if(storeddaytimename){
+		$("html").addClass(storeddaytimename);
+	}
+} else { }
+
+
 // get users location
 function getLocation(){
 	if (navigator.geolocation) {
@@ -34,6 +43,7 @@ function showPosition(position) {
 				diff = newdiff;
 				curr = times[property].getTime();
 				daytimename = property;
+				localStorage.setItem("daytimename", property); // set localstorage, to avoid flickering when geolocation is reached
 			}
 		}
 	}
