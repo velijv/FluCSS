@@ -1,7 +1,8 @@
 # [FluCSS by Veli](http://veli.ee/flucss/)
 jQuery plugin for CSS styles based on sunset and sunrise for visitor location. Like [F.lux](http://justgetflux.com/), for the web.
 
-_Demo does not work on Chrome, because geoLocation must be served over https. If your project has https, works fine_
+_Full demo does not work on Chrome, because geoLocation must be served over https. If your project has https, works fine_
+_[See a watered-down working demo](https://htmlpreview.github.io/?https://github.com/velijv/FluCSS--F.lux-for-the-web/blob/master/index.html)_
 
 ## [Preview demo](http://veli.ee/flucss/)
 
