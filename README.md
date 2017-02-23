@@ -1,5 +1,5 @@
 # [FluCSS by Veli](http://veli.ee/flucss/)
-CSS styles based on sunset and sunrise for visitor location. Like [F.lux](http://justgetflux.com/), for the web.
+jQuery plugin for CSS styles based on sunset and sunrise for visitor location. Like [F.lux](http://justgetflux.com/), for the web.
 
 _Demo does not work on Chrome, because geoLocation must be served over https. If your project has https, works fine_
 
@@ -22,7 +22,8 @@ Options: Dimmed at night, Full black at night
 ## How to use it:
 1. Include jQuery
 2. Include [SunCalc js](https://github.com/mourner/suncalc)
-3. Include flucss.js and flucss.css
+3. Include flucss.min.js and flucss.css
+4. call $("html").flucss(); // for any element you want, mostly you want "html" or "body"
 
 ##Color palette
 Colors are modeled by dividing sun states into 4 groups — but you can add more variation if you need.
