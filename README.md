@@ -3,7 +3,7 @@ jQuery plugin for CSS styles based on sunset and sunrise for visitor location. L
 
 ## 😎 [Preview demo](http://veli.ee/flucss/)
 
-[![Preview](splash.png)](http://veli.ee/flucss/)
+[![Preview](https://repository-images.githubusercontent.com/82824740/f7676cc0-90aa-4689-9b80-8d24294f6531)](http://veli.ee/flucss/)
 
 
 Easier on the eyes for night-time reading, useful for blogs and newspapers by eliminating blue light. Read more on [F.lux website](http://justgetflux.com/).
