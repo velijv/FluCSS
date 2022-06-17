@@ -1,5 +1,5 @@
 # [FluCSS by Veli](http://veli.ee/flucss/)
-jQuery plugin for CSS styles based on sunset and sunrise for visitor location. Like [F.lux](http://justgetflux.com/), for the web.
+jQuery plugin for CSS styles based on sunset and sunrise for visitor location. Like [F.lux](http://justgetflux.com/) / night light / night shift for the web.
 
 ## 😎 [Preview demo](http://veli.ee/flucss/)
 
