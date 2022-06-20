@@ -1,6 +1,8 @@
 # [FluCSS by Veli](http://veli.ee/flucss/)
 jQuery plugin for CSS styles based on sunset and sunrise for visitor location. Like [F.lux](http://justgetflux.com/) / night light / night shift for the web.
 
+> Note: this was originally created before the `prefers-color-scheme` CSS media feature was usable. But it is still relevant for gradual color temperature changing, instead of sharp boolean 🌑 **dark** or ☀️ **light**. 
+
 ## 😎 [Preview demo](http://veli.ee/flucss/)
 
 [![Preview](https://repository-images.githubusercontent.com/82824740/f7676cc0-90aa-4689-9b80-8d24294f6531)](http://veli.ee/flucss/)
